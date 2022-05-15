@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="css/estilos.css" />
 </head>
 
-<body class="grids">
+<body>
     <header class="header d-grid">
-        <div class="headerLogo rflex-center d-flex">
+        <div class="headerLogo flex-center d-flex">
             <a href="index.html"><img class="logo-img" src="recursos/FH INICIO.png" alt="Feria del Hogar"/></a>
         </div>
         <div class="headerTitulo d-flex">
@@ -21,7 +21,7 @@
         <div class="headerButton d-none">
             <img src="recursos/Header icons/bars-solid.svg" alt="Menu">
         </div>
-        <nav class="headerNav d-flex">
+        <nav class="headerNav flex-center d-flex">
             <ul class="d-flex">
                 <li>
                     <a class="nav__item--destacado" href="index.html">Inicio</a>
@@ -41,43 +41,31 @@
             </ul>
         </nav>
     </header>
-    <main class="index-main d-grid">
-        <div class="cuotas flex-center d-flex">
-            <p class="cuotas__p">
+    <main>
+        <div class="cuotas">
+            <p class="cuotas__p flex-center d-flex">
                 ¡Hasta 6 cuotas sin interés con cualquier tarjeta de
                 crédito!
             </p>
         </div>
-        <section>
-            <div class="d-flex flex-center">
+        <section class="carrusel">
+            <div>
                 <img class="responsive" src="recursos/tv-media-units-4108357.png" alt="Rack de TV" />
                 <!-- CARRUSEL CON OFERTAS Y PROMOS -->
             </div>
         </section>
-        <section>
-            <div>
-                <ul class="datosServicio d-grid">
-                    <div class="servicio__tarjeta d-flex flex-center">
-                        <li>(icono)Retirá en sucursal</li>
-                    </div>
-                    <div class="servicio__tarjeta d-flex flex-center">
-                        <li>(icono)Cualquier tarjeta de crédito y débito</li>
-                    </div>
-                    <div class="servicio__tarjeta d-flex flex-center">
-                        <li>(icono)Servicio de instalación</li>
-                    </div>
-                    <div class="servicio__tarjeta d-flex flex-center">
-                        <li>(icono)Asesoramiento</li>
-                    </div>
-                </ul>
-            </div>
-        </section>
+        <ul class="d-grid sm-dosColumn">
+            <li class="servicio__tarjeta d-flex flex-center">(icono)Retirá en sucursal</li>
+            <li class="servicio__tarjeta d-flex flex-center">(icono)Cualquier tarjeta de crédito y débito</li>
+            <li class="servicio__tarjeta d-flex flex-center">(icono)Servicio de instalación</li>
+            <li class="servicio__tarjeta d-flex flex-center">(icono)Asesoramiento</li>
+        </ul>
         <section>
             <div class="d-flex">
                 <h2 class="main-h2">Categorías destacadas</h2>
             </div>
             <div>
-                <ul class="destacadas-visitados d-grid">
+                <ul class="cuatroColumn sm-dosColumn d-grid destacadas-visitados">
                     <div class="main__tarjeta d-flex flex-center flex-column">
                         <li>
                             <a href="paginas/productos.html"><img src="./recursos/FH INICIO.png" /></a>
@@ -102,12 +90,6 @@
                         </li>
                         <p>Pequeños electrodomésticos</p>
                     </div>
-                    <div class="main__tarjeta d-flex flex-center flex-column">
-                        <li>
-                            <a href="paginas/productos.html"><img src="./recursos/FH INICIO.png" /></a>
-                        </li>
-                        <p>Ventilación y refrigeración</p>
-                    </div>
                 </ul>
             </div>
         </section>
@@ -115,7 +97,7 @@
             <div class="d-flex">
                 <h2 class="main-h2">Los más visitados</h2>
             </div>
-            <div class="d-grid destacadas-visitados">
+            <div class="d-grid cuatroColumn sm-dosColumn destacadas-visitados">
                 <div class="main__tarjeta d-flex flex-center flex-column">
                     <img src="./recursos/FH INICIO.png" alt="articulo1" /><button class="boton-visitados">articulo1</button>
                 </div>
@@ -128,9 +110,6 @@
                 <div class="main__tarjeta d-flex flex-center flex-column">
                     <img src="./recursos/FH INICIO.png" alt="articulo4" /><button class="boton-visitados">articulo4</button>
                 </div>
-                <div class="main__tarjeta d-flex flex-center flex-column">
-                    <img src="./recursos/FH INICIO.png" alt="articulo5" /><button class="boton-visitados">articulo5</button>
-                </div>
             </div>
         </section>
         <section>
@@ -140,10 +119,10 @@
         </section>
     </main>
     <footer class="footer d-grid">
-        <div class="encontranosTitulo d-grid">
+        <div class="encontranosTitulo">
             <h2 class="d-flex flex-center encontranos__h2">¡Encontranos!</h2>
         </div>
-        <section class="footerInfo d-grid">
+        <section class="footerInfo">
             <div class="d-flex info__div">
                 <img class="info__img" src="recursos/Footer icons/location.png">
                 <p class="info__p">Ubicación de oficinas.</p>
@@ -191,7 +170,7 @@
                 </li>
             </ul>
         </section>
-        <div class="derechosReservados d-grid">
+        <div class="derechosReservados">
             <p class="d-flex flex-center">&copy; Todos los derechos reservados.</p>
         </div>
     </footer>

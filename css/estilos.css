@@ -3,13 +3,6 @@
     padding: 0;
 }
 
-.grids {
-    display: grid;
-    grid-template-areas:
-        "header"
-        "main"
-        "footer";
-}
 .d-grid {
     display: grid;
 }
@@ -36,6 +29,7 @@ ul {
 .flex-column {
     flex-direction: column;
 }
+
 /*HEADER*/
 
 .header {
@@ -86,16 +80,6 @@ ul {
     border: 2px solid black;
 }
 
-.index-main {
-    grid-template-columns: 100%;
-    grid-template-rows: max-content;
-}
-
-.cuotas {
-    align-items: center;
-    background-color: #1e1e1e;
-    padding: 2px;
-}
 .headerButton{
     background-color: transparent;
     border: 3px solid black;
@@ -110,6 +94,18 @@ ul {
 .headerButton img{
     width: 2.25em;
 }
+
+.index-main {
+    grid-column: 25% 25% 25% 25%;
+    grid-template-rows: repeat(8,auto);
+}
+
+.cuotas {
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 2px;
+}
+
 .cuotas__p {
     color: white;
     font-weight: bold;
@@ -117,7 +113,7 @@ ul {
     word-spacing: 2px;
 }
 
-.datosServicio {
+.cuatroColumn {
     grid-template-columns: 25% 25% 25% 25%;
 }
 
@@ -131,7 +127,6 @@ ul {
 }
 
 .destacadas-visitados {
-    grid-template-columns: 20% 20% 20% 20% 20%;
     margin-bottom: 3em;
 }
 
@@ -269,10 +264,11 @@ footer {
         display: flex;
         justify-content: right;
     }
+    .sm-dosColumn {
+    grid-template-columns: 50% 50%;
+    }
 
     .destacadas-visitados{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
         gap: 0.75em
     }
     .datosServicio {
