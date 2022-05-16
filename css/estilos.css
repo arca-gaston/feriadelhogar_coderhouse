@@ -97,7 +97,7 @@ ul {
 
 .cuotas {
     align-items: center;
-    background-color: #1e1e1e;
+    background-color: hsl(0, 0%, 12%);
     padding: 2px;
 }
 
@@ -151,6 +151,12 @@ ul {
     font-size: large;
     padding: 5px;
     border-radius: 5px;
+    background:  linear-gradient(to bottom, rgb(255, 255, 255), rgb(99, 96, 96));
+    transition: all 0.3s;
+}
+
+.arrepentimiento__btn:hover {
+    transform: scale(1.1);
 }
 
 footer {
