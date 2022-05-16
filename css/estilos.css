@@ -95,11 +95,6 @@ ul {
     width: 2.25em;
 }
 
-.index-main {
-    grid-column: 25% 25% 25% 25%;
-    grid-template-rows: repeat(8,auto);
-}
-
 .cuotas {
     align-items: center;
     background-color: #1e1e1e;
@@ -123,7 +118,6 @@ ul {
 
 .main-h2 {
     margin: 3em;
-    justify-content: left;
 }
 
 .destacadas-visitados {
@@ -271,10 +265,7 @@ footer {
     .destacadas-visitados{
         gap: 0.75em
     }
-    .datosServicio {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
+
     .footer{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, auto);
