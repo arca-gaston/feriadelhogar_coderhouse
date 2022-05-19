@@ -1,167 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Feria del Hogar</title>
+        <link rel="shortcut icon" href="../recursos/favicon-16x16.png" type="image/x-icon" />
+        <!--BOOTSTRAP-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <!--CSS-->
+        <link rel="stylesheet" href="../css/estilos.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Feria del Hogar</title>
-    <link rel="shortcut icon" href="../recursos/favicon-16x16.png" type="image/x-icon" />
-    <link rel="stylesheet" href="../css/estilos.css" />
-</head>
-
-<body>
-    <header>
-        <div class="inline-block">
-            <a href="../index.html"><img src="../recursos/FH INICIO.png" alt="Feria del Hogar" class="logo__img" /></a>
-        </div>
-
-        <h1 class="titulo">FERIA DEL HOGAR</h1>
-        <nav class="navegacion">
-            <ul>
-                <li class="inline-block">
-                    <a class="navegacion__a" href="../index.html">Inicio</a>
-                </li>
-                <li class="inline-block">
-                    <a class="navegacion__a navegacion__link--destacado" href="contactanos.html">Contáctanos</a>
-                </li>
-                <li class="inline-block">
-                    <a class="navegacion__a" href="sucursales.html">Sucursales</a>
-                </li>
-                <li class="inline-block">
-                    <a class="navegacion__a" href="productos.html">Productos</a>
-                </li>
-                <li class="inline-block">
-                    <a class="navegacion__a" href="sobre-nosotros.html">Sobre Nosotros</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="contactanos">
-            <div class="contactanos__titulo">
-                <h2 class="contactanos__h2">CONTÁCTANOS</h2>
-            </div>
-            <div class="contactanos__texto">
-                <p class="contactanos__parrafo">Llena los campos con tus datos y nos estaremos comunicando contigo a la brevedad.
-                </p>
-            </div>
-        </section>
-        <section>
-            <form class="formulario">
-                <div class="formulario__campo inline-block">
-                    <label for="nombre">Nombre:</label>
-                    <input id="nombre" class="input-form" type="text" name="nombre" placeholder="Nombre" />
+    <body>
+        <header class="bg-red p-2">
+            <section class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <a href="../index.html"
+                            ><img
+                                class="border border-dark border-5"
+                                src="../recursos/FH INICIO.png"
+                                alt="Feria del Hogar"
+                        /></a>
+                    </div>
+                    <div class="col-4 d-flex align-items-center">
+                        <h1 class="text-white">FERIA DEL HOGAR</h1>
+                    </div>
+                    <nav class="col-5 navbar navbar-expand-lg bg-red">
+                        <div class="container-fluid">
+                            <a class="navbar-brand text-white" href="#">Navegación</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="contactanos.html">Contáctanos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="productos.html">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="sobre-nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="sucursales.html">Sucursales</a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
-                <div class="formulario__campo inline-block">
-                    <label for="apellido">Apellido:</label>
-                    <input id="apellido" class="input-form" type="text" name="apellido" placeholder="Apellido" />
+            </section>
+        </header>
+        <main class="p-4">
+            <section class="container">
+                <div class="row">
+                    <div class="col justify-content-center d-flex p-4">
+                        <h2 class="text-center">CONTÁCTANOS</h2>
+                    </div>
                 </div>
-                <div class="formulario__campo">
-                    <label for="email">Email:</label>
-                    <input id="email" class="input-form" type="email" name="email" placeholder="Email" />
+                <div class="row pb-4">
+                    <div class="col justify-content-center d-flex">
+                        <p class="text-center">
+                            Llena los campos con tus datos y nos estaremos comunicando contigo a la
+                            brevedad.
+                        </p>
+                    </div>
                 </div>
-                <div class="formulario__campo">
-                    <label for="celular">Núm. Celular:</label>
-                    <input id="" class="input-form" type="text" name="celular" placeholder="Núm. Celular" />
+                <form>
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="nombre" class="form-label">Nombre:</label>
+                            <input
+                                id="nombre"
+                                class="form-control"
+                                type="text"
+                                name="nombre"
+                                placeholder="Nombre"
+                                aria-colcount="1"
+                            />
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="apellido" class="form-label">Apellido:</label>
+                            <input
+                                id="apellido"
+                                class="form-control"
+                                type="text"
+                                name="apellido"
+                                placeholder="Apellido"
+                            />
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input
+                            id="email"
+                            class="form-control"
+                            type="email"
+                            name="email"
+                            placeholder="Email"
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label for="celular" class="form-label">Núm. Celular:</label>
+                        <input
+                            id="celular"
+                            class="form-control"
+                            type="text"
+                            name="celular"
+                            placeholder="Núm. Celular"
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label for="provincia" class="form-label">Provincia</label>
+                        <select id="provincia" class="form-select" name="provincia">
+                            <option selected>Seleccione aquí su provincia.</option>
+                            <option value="buenos-aires">Buenos Aires</option>
+                            <option value="caba">CABA</option>
+                            <option value="catamarca">Catamarca</option>
+                            <option value="chaco">Chaco</option>
+                            <option value="chubut">Chubut</option>
+                            <option value="cordoba">Córdoba</option>
+                            <option value="entre-rios">Entre Ríos</option>
+                            <option value="jujuy">Jujuy</option>
+                            <option value="la-pampa">La Pampa</option>
+                            <option value="la-rioja">La Rioja</option>
+                            <option value="mendoza">Mendoza</option>
+                            <option value="misiones">Misiones</option>
+                            <option value="neuquen">Neuquén</option>
+                            <option value="rio-negro">Río Negro</option>
+                            <option value="salta">Salta</option>
+                            <option value="san-juan">San Juan</option>
+                            <option value="san-luis">San Luis</option>
+                            <option value="santa-cruz">Santa Cruz</option>
+                            <option value="santa-fe">Santa Fe</option>
+                            <option value="santiago-del-estero">Santiago del Estero</option>
+                            <option value="tierra-del-fuego">Tierra del Fuego</option>
+                            <option value="tucuman">Tucumán</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="consulta" class="form-label">Consulta:</label>
+                    </div>
+                    <div class="mb-3">
+                        <textarea
+                            id="consulta"
+                            class="form-control"
+                            rows="4"
+                            name="consulta"
+                            placeholder="Ingrese su consulta"
+                        ></textarea>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-12 d-flex">
+                            <button type="submit" class="btn btn-primary flex-grow-1">
+                                Enviar Formulario.
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <section class="container">
+                <div class="row">
+                    <div class="col-12 justify-content-center d-flex p-4">
+                        <h2 class="text-center text-white">¡Encontranos!</h2>
+                    </div>
+                <section class="row">
+                    <div class="col-6">
+                        <div class="d-flex align-items-center">
+                            <!-- <i class="fa-solid fa-location-dot fa-3x"></i> -->
+                            <p class="text-white d-inline">Ubicación de oficinas.</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <!-- <i class="fa-solid fa-phone fa-3x"></i> -->
+                            <p class="text-white d-inline">Numero de telefono de consulta.</p>
+                        </div>
+                        <div>
+                            <!-- <i class="fa-solid fa-envelope fa-3x"></i> -->
+                            <p class="text-white d-inline">Dirección de correo eléctronico.</p>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <div class="align-items-center p-2 d-flex">
+                            <a class="" target="blank" href="https://www.instagram.com/feriadelhogar.ok/?hl=es">
+                                <i class="fa-brands fa-instagram fa-3x"></i>
+                            </a>
+                        </div>
+                        <div class="align-items-center p-2 d-flex">
+                            <a target="blank" href="https://www.facebook.com/FeriadelHogar.ok/">
+                                <i class="fa-brands fa-facebook-square fa-3x"></i>
+                            </a>
+                        </div>
+                        <div class="align-items-center p-2 d-flex">
+                            <a target="blank" href="https://www.youtube.com/watch?v=nohQReM7BpI">
+                                <i class="fa-brands fa-empire fa-3x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <div class="row">
+                    <div class="col-12 justify-content-center d-flex p-3">
+                        <p class="text-center text-white">&copy; Todos los derechos reservados.</p>
+                    </div>
                 </div>
-                <div class="formulario__campo">
-                    <label for="provincia">Provincia</label>
-                    <select id="provincia" class="select-form" name="provincia">
-                        <option value="buenos-aires">Buenos Aires</option>
-                        <option value="caba">CABA</option>
-                        <option value="catamarca">Catamarca</option>
-                        <option value="chaco">Chaco</option>
-                        <option value="chubut">Chubut</option>
-                        <option value="cordoba">Córdoba</option>
-                        <option value="entre-rios">Entre Ríos</option>
-                        <option value="jujuy">Jujuy</option>
-                        <option value="la-pampa">La Pampa</option>
-                        <option value="la-rioja">La Rioja</option>
-                        <option value="mendoza">Mendoza</option>
-                        <option value="misiones">Misiones</option>
-                        <option value="neuquen">Neuquén</option>
-                        <option value="rio-negro">Río Negro</option>
-                        <option value="salta">Salta</option>
-                        <option value="san-juan">San Juan</option>
-                        <option value="san-luis">San Luis</option>
-                        <option value="santa-cruz">Santa Cruz</option>
-                        <option value="santa-fe">Santa Fe</option>
-                        <option value="santiago-del-estero">Santiago del Estero</option>
-                        <option value="tierra-del-fuego">Tierra del Fuego</option>
-                        <option value="tucuman">Tucumán</option>
-                    </select>
-                </div>
-                <div class="formulario__campo">
-                    <label for="consulta">Consulta:</label>
-                </div>
-                <div class="formulario__campo">
-                    <textarea 
-                    id="consulta" 
-                    class="textarea-form" 
-                    rows="4" cols="40" 
-                    name="consulta" 
-                    placeholder="Ingrese su consulta"></textarea>
-                </div>
-                <div class="formulario__enviarbtn">
-                    <input class="input-enviar" type="submit" value="Enviar">
-                </div>
-        </section>
-    </main>
-    <footer>
-        <div>
-            <h2 class="encontranos-h2">¡Encontranos!</h2>
-            <div class="inf-contacto">
-                <img class="inf-contacto__img" src="../recursos/Footer icons/location.png">
-                <p class="inline-block">Ubicación de oficinas.</p>
-            </div>
-            <div class="inf-contacto">
-                <img class="inf-contacto__img" src="../recursos/Footer icons/phone-call.png">
-                <p class="inline-block">Numero de telefono de consulta.</p>
-            </div>
-            <div class="inf-contacto">
-                <img class="inf-contacto__img" src="../recursos/Footer icons/envelope.png">
-                <p class="inline-block">Dirección de correo eléctronico.</p>
-            </div>
-        </div>
-        <div class="links">
-            <ul>
-                <li class="links__icono">
-                    <a target="blank" href="https://www.instagram.com/feriadelhogar.ok/?hl=es">
-                        <img class="links__img" src="../recursos/Footer icons/instagram.png" />
-                    </a>
-                </li>
-                <li class="links__icono">
-                    <a target="blank" href="https://www.facebook.com/FeriadelHogar.ok/">
-                        <img class="links__img" src="../recursos/Footer icons/facebook.png" />
-                    </a>
-                </li>
-                <li class="links__icono">
-                    <a target="blank" href="https://www.youtube.com/watch?v=nohQReM7BpI">
-                        <img class="links__img" src="../recursos/Footer icons/space-station.png" />
-                    </a>
-                </li>
-                <li class="links__icono">
-                    <a target="blank" href="#">
-                        <img class="links__img" src="../recursos/Footer icons/twitter-sign.png" />
-                    </a>
-                </li>
-                <li class="links__icono">
-                    <a target="blank" href="#">
-                        <img class="links__img" src="../recursos/Footer icons/pinterest.png" />
-                    </a>
-                </li>
-                <li class="links__icono">
-                    <a target="blank" href="#">
-                        <img class="links__img" src="../recursos/Footer icons/youtube.png" />
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="derechos-reservados">
-            <p>&copy; Todos los derechos reservados.</p>
-        </div>
-    </footer>
-</body>
-
+            </section>
+        </footer>
+        <!--SCRIPT BOOTSTRAP-->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://kit.fontawesome.com/0e31c3f5ed.js" crossorigin="anonymous"></script>
+    </body>
 </html>
