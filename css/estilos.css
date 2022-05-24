@@ -3,31 +3,12 @@
     padding: 0;
 }
 
-.d-grid {
-    display: grid;
-}
-.d-none{
-    display: none;
-}
-
 body {
     background-color: gainsboro;
 }
 
 ul {
     list-style-type: none;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.flex-center{
-    justify-content: center;
-}
-
-.flex-column {
-    flex-direction: column;
 }
 
 .bg-gray {
@@ -37,270 +18,60 @@ ul {
 .bg-red {
     background-color:#ed1c24;
 }
-/*HEADER*/
-
-.header {
-    padding: 1em;
-}
-
-.responsive{
-    width: 100%;
-    height: auto;
-}
-
-.logo-img {
-    border: 5px black solid;
-}
-
-.headerTitulo {
-    justify-content: left;
-    align-items: center;
-}
-
-.titulo__h1 {
-    color: white;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 3em;
-}
-
-.headerNav {
-    align-items: center;
-}
-
-.headerNav ul {
-    justify-content: space-between;
-    width: 70%;
-}
-
-.nav__item, .nav__item--destacado {
-    color: white;
-    font-weight: lighter;
-    font-size: large;
-    padding: 6px;
-}
-
-.nav__item--destacado {
-    font-weight: bolder;
-    border: 2px solid black;
-}
-
-.headerButton{
-    background-color: transparent;
-    border: 3px solid black;
-    border-radius: 12px;
-    padding: 0.50em;
-    width: auto;
-    cursor: pointer;
-}
-.headerButton:hover{
-    background-color: #af0202;
-}
-.headerButton img{
-    width: 2.25em;
-}
-
-.cuotas {
-    align-items: center;
-    background-color: hsl(0, 0%, 12%);
-    padding: 2px;
-}
-
-.cuotas__p {
-    color: white;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    word-spacing: 2px;
-}
-
-.cuatroColumn {
-    grid-template-columns: 25% 25% 25% 25%;
-}
-
-.servicio__tarjeta {
-    padding: 2em 0em;
-}
-
-.main-h2 {
-    margin: 3em;
-}
-
-.destacadas-visitados {
-    margin-bottom: 3em;
-}
-
-.main__tarjeta {
-    align-items: center;
-}
-
-.boton-visitados {
-    width: 60%;
-    height: 2em;
-    background-color: white;
-    border-bottom: 2px solid #ed1c24;
-    border-radius: 5px;
-    
-}
-
-.boton-visitados:hover {
-    background-color: #1e1e1e;
-    color: white;
-}
-
-.arrepentimiento {
-    padding: 3em;
-    background-color: #1e1e1e;
-}
-
-.arrepentimiento__btn {
-    font-size: large;
-    padding: 5px;
-    border-radius: 5px;
-    background:  linear-gradient(to bottom, rgb(255, 255, 255), rgb(99, 96, 96));
-    transition: all 0.3s;
-}
-
-.arrepentimiento__btn:hover {
-    transform: scale(1.1);
-}
 
 footer {
     background-color: #ed1c24;
-}
-
-.footer {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr auto 1fr;
-}
-
-.encontranosTitulo {
-    grid-column: 1/3; 
-}
-
-.encontranos__h2{
-    align-items: center;
-    color: white;
-    font-size: xx-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 3%;
-}
-
-.footerInfo {
-    grid-column: 1/2;
-}
-
-.info__div{
-    align-items: center;
-    padding: 1.5em;
-}
-
-.info__img {
-    width: 35px;
-    height: 35px;
-    padding: 1em;
-}
-
-.info__p {
-    color: white;
-    font-size: large;
-}
-
-.linksRedes {
-    grid-column: 2/3;
-    flex-direction: column;
-}
-
-.redes__img {
-    width: 50px;
-    height: 50px;
 }
 
 i {
     color: white;
 }
 
-.derechosReservados {
-    grid-column: 1/3;
-    font-weight: bold;
-    color: white;
-    font-size: large;
-    align-items: center;
+.text-red {
+    color: #ed1c24;
+}
+.carousel__img {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 75vh;
+    width: 100%;
 }
 
-.sobreNosotros-main {
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr auto 1fr auto;
+.border-red {
+    border-color: #ed1c24;
 }
 
-.sobrenos-h2 {
-    margin: 8% 2% 6% 2%;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 25px;
-    padding: 0% 8%;
-    border-bottom: 4px black solid;
+.card-img-css {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
 }
 
-.sobreNos-p {
-    margin: 0% 12%;
-    text-indent: 40px;
-    word-spacing: 5px;
-    letter-spacing: 0.3px;
-    line-height: 24px;
-    text-align: justify;
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
-.comoComprar-h3 {
-    margin: 6% 4% 2% 2%;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 25px;
-    padding: 0% 8% 0% 8%;
+.carousel-control-animation {
+    transition: 0.4s;
 }
 
-@media screen and (max-width: 800px) {
-    .header{
-        grid-template-columns:1fr 3fr auto; 
-    }
-    .headerLogo img{
-        max-width: 50px;
-    } 
-    .headerTitulo{
-        font-size: 0.60em;
-    } 
-    .headerNav{
-        display: none;
-    }
-    .headerButton{
-        display: flex;
-        justify-content: right;
-    }
-    .sm-dosColumn {
-    grid-template-columns: 50% 50%;
-    }
+.carousel-control-animation:hover {
+    transform: scale(1.5);
+}
 
-    .destacadas-visitados{
-        gap: 0.75em
-    }
+.card {
+    transition: all 0.6s;
+}
+.card:hover {
+    -webkit-box-shadow: 9px 10px 31px 11px rgba(0,0,0,0.5) !important; 
+box-shadow: 9px 10px 31px 11px rgba(0,0,0,0.5) !important;
+}
 
-    .footer{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, auto);
-    }
-    .encontranosTitulo{
-        grid-column: 1;
-    }
-    .derechosReservados{
-        grid-column: 1;
-    }
-    .linksRedes{
-        grid-column: 1;
-        flex-direction: row;
-        justify-content: center;
-        padding-bottom: 1em;
-    }
-    .footerInfo{
-        grid-column: 1;
-    }
-    .sobreNosotros-main{
-        grid-template-rows: 1fr auto 1fr auto;
-        padding-bottom: 1em;
+@media screen and (max-width:576px){
+    .flex-column-sm{
+        flex-direction: column;
+        align-items: flex-end;
     }
 }
