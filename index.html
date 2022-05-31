@@ -16,158 +16,256 @@
         <!--CSS-->
         <link rel="stylesheet" href="css/estilos.css" />
     </head>
-    <body>
+    <body class="d-flex flex-column">
         <header class="p-2">
             <nav class="navbar navbar-expand-lg bg-red">
                 <div class="container-fluid gap-5">
-                        <div>
-                            <a href="index.html"
-                                ><img
-                                    class="border border-dark border-5"
-                                    src="recursos/FH INICIO.png"
-                                    alt="Feria del Hogar"
-                            /></a>
-                        </div>
-                        <div class="d-flex align-items-center d-none d-sm-block">
-                            <h1 class="text-white pl-5">FERIA DEL HOGAR</h1>
-                        </div>
-                        <button
-                            class="navbar-toggler"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav"
-                            aria-controls="navbarNav"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation"
-                        >
-                            <i class="fa-solid fa-bars text-white fa-2x"></i>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a
-                                        class="nav-link active text-white"
-                                        aria-current="page"
-                                        href="index.html"
-                                        >Inicio</a
-                                    >
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="paginas/contactanos.html"
-                                        >Contáctanos</a
-                                    >
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="paginas/productos.html"
-                                        >Productos</a
-                                    >
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="paginas/sobre-nosotros.html"
-                                        >Nosotros</a
-                                    >
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="paginas/sucursales.html"
-                                        >Sucursales</a
-                                    >
-                                </li>
-                            </ul>
-                        </div>
+                    <div>
+                        <a href="index.html"
+                            ><img
+                                class="border border-dark border-5"
+                                src="recursos/FH INICIO.png"
+                                alt="Feria del Hogar"
+                        /></a>
                     </div>
+                    <div class="d-flex align-items-center d-none d-sm-block">
+                        <h1 class="text-white pl-5">FERIA DEL HOGAR</h1>
+                    </div>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <i class="fa-solid fa-bars text-white fa-2x"></i>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active text-white"
+                                    aria-current="page"
+                                    href="index.html"
+                                    >Inicio</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="paginas/contactanos.html"
+                                    >Contáctanos</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="paginas/productos.html"
+                                    >Productos</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="paginas/sobre-nosotros.html"
+                                    >Nosotros</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="paginas/sucursales.html"
+                                    >Sucursales</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
-        <main>
+        <main class="flex-grow-1">
             <section class="container-fluid">
                 <div class="row bg-gray bg-gradient d">
                     <div class="col-12 justify-content-center d-flex">
-                        <p class="text-white my-1">¡Hasta 6 cuotas sin interés con cualquier tarjeta de crédito!</p>
+                        <p class="text-white my-1">
+                            ¡Hasta 6 cuotas sin interés con cualquier tarjeta de crédito!
+                        </p>
                     </div>
                 </div>
-                    <!--CARRUSEL-->
+                <!--CARRUSEL-->
                 <div class="row">
                     <div class="col-12">
-                        <div id="carrusel" class="carousel carousel-dark slide mx-3 border border-top-0 border-dark rounded-bottom" data-bs-ride="false">
+                        <div
+                            id="carrusel"
+                            class="carousel carousel-dark slide mx-3 border border-top-0 border-dark rounded-bottom"
+                            data-bs-ride="false"
+                        >
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button
+                                    type="button"
+                                    data-bs-target="carrusel"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-current="true"
+                                    aria-label="Slide 1"
+                                ></button>
+                                <button
+                                    type="button"
+                                    data-bs-target="carrusel"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"
+                                ></button>
+                                <button
+                                    type="button"
+                                    data-bs-target="carrusel"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"
+                                ></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="carousel__img" src="recursos/Carrusel/cocina.jpg" class="d-block w-100" alt="Promocion de artículo de cocina">
-                                    <div class="carousel-caption d-block bg-secondary bg-gradient bg-opacity-75 rounded">
+                                    <img
+                                        class="carousel__img"
+                                        src="recursos/Carrusel/cocina.jpg"
+                                        class="d-block w-100"
+                                        alt="Promocion de artículo de cocina"
+                                    />
+                                    <div
+                                        class="carousel-caption d-block bg-secondary bg-gradient bg-opacity-75 rounded"
+                                    >
                                         <h5>¡Increíbles REBAJAS en artículos para tu cocina!</h5>
-                                        <p>Aprovecha nuestras promos y descuentos para equipar tu cocina.</p>
+                                        <p>
+                                            Aprovecha nuestras promos y descuentos para equipar tu
+                                            cocina.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="carousel__img" src="recursos/Carrusel/mueble.jpg" class="d-block w-100" alt="Promo de mueble">
-                                    <div class="carousel-caption d-block bg-secondary bg-gradient bg-opacity-75 rounded">
+                                    <img
+                                        class="carousel__img"
+                                        src="recursos/Carrusel/mueble.jpg"
+                                        class="d-block w-100"
+                                        alt="Promo de mueble"
+                                    />
+                                    <div
+                                        class="carousel-caption d-block bg-secondary bg-gradient bg-opacity-75 rounded"
+                                    >
                                         <h5>¡Ahorrá hasta un 40% en renovar tu casa!</h5>
                                         <p>Descuentos en amoblamiento para dormitorio y living.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="carousel__img" src="recursos/Carrusel/sillon.jpg" class="d-block w-100" alt="Promo de sillón">
-                                    <div class="carousel-caption d-block bg-secondary bg-gradient bg-opacity-75 rounded">
+                                    <img
+                                        class="carousel__img"
+                                        src="recursos/Carrusel/sillon.jpg"
+                                        class="d-block w-100"
+                                        alt="Promo de sillón"
+                                    />
+                                    <div
+                                        class="carousel-caption d-block bg-secondary bg-gradient bg-opacity-75 rounded"
+                                    >
                                         <h5>Comodidad en muchas formas y colores.</h5>
-                                        <p>Te invitamos a revisar nuestro gran catálogo de futones y sillones. ¡También aceptamos encargos personalizados!</p>
+                                        <p>
+                                            Te invitamos a revisar nuestro gran catálogo de futones
+                                            y sillones. ¡También aceptamos encargos personalizados!
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <button class="carousel-control-prev carousel-control-animation" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <button
+                                class="carousel-control-prev carousel-control-animation"
+                                type="button"
+                                data-bs-target="#carrusel"
+                                data-bs-slide="prev"
+                            >
+                                <span
+                                    class="carousel-control-prev-icon carousel-icon"
+                                    aria-hidden="true"
+                                ></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next carousel-control-animation" type="button" data-bs-target="#carrusel" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <button
+                                class="carousel-control-next carousel-control-animation"
+                                type="button"
+                                data-bs-target="#carrusel"
+                                data-bs-slide="next"
+                            >
+                                <span
+                                    class="carousel-control-next-icon carousel-icon"
+                                    aria-hidden="true"
+                                ></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-5 text-center">
-                    <div class="col-6 col-sm-3 d-flex flex-column"><i class="fa-solid fa-store text-red fa-4x"></i>Retirá en sucursal</div>
-                    <div class="col-6 col-sm-3 d-flex flex-column"><i class="fa-solid fa-credit-card text-red fa-4x"></i>Cualquier tarjeta de crédito y débito</div>
-                    <div class="col-6 col-sm-3 d-flex flex-column"><i class="fa-solid fa-screwdriver-wrench text-red fa-4x"></i>Servicios de instalación</div>
-                    <div class="col-6 col-sm-3 d-flex flex-column"><i class="fa-solid fa-headset text-red fa-4x"></i>Asesoramiento</div>
+                    <div class="col-6 col-sm-3 d-flex flex-column">
+                        <i class="fa-solid fa-store text-red fa-4x"></i>Retirá en sucursal
+                    </div>
+                    <div class="col-6 col-sm-3 d-flex flex-column">
+                        <i class="fa-solid fa-credit-card text-red fa-4x"></i>Cualquier tarjeta de
+                        crédito y débito
+                    </div>
+                    <div class="col-6 col-sm-3 d-flex flex-column">
+                        <i class="fa-solid fa-screwdriver-wrench text-red fa-4x"></i>Servicios de
+                        instalación
+                    </div>
+                    <div class="col-6 col-sm-3 d-flex flex-column">
+                        <i class="fa-solid fa-headset text-red fa-4x"></i>Asesoramiento
+                    </div>
                 </div>
                 <div class="row m-3 border-bottom border-danger border-2">
                     <div class="col-6 mt-3">
                         <h2>Categorías destacadas</h2>
                     </div>
                 </div>
-                <div class="row mb-5 gy-3">
+                <div class="row m-4 gy-3">
                     <div class="col-12 col-sm-6 col-md-3 justify-content-center d-flex">
-                        <div class="card shadow" style="width: 18rem;">
-                            <img src="recursos/Categorías destacadas/destacada-mueble.jpg" class="card-img-top card-img-css border-bottom border-dark" alt="Mueble de interior">
+                        <div class="card shadow" style="width: 18rem">
+                            <img
+                                src="recursos/Categorías destacadas/destacada-mueble.jpg"
+                                class="card-img-top card-img-css border-bottom border-dark"
+                                alt="Mueble de interior"
+                            />
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">Muebles de interior</h5>
+                                <h5 class="card-title d-flex justify-content-center">
+                                    Muebles de interior
+                                </h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 justify-content-center d-flex">
-                        <div class="card shadow" style="width: 18rem;">
-                            <img src="recursos/Categorías destacadas/destacada-cama.jpg" class="card-img-top card-img-css border-bottom border-dark" alt="Cama">
+                        <div class="card shadow" style="width: 18rem">
+                            <img
+                                src="recursos/Categorías destacadas/destacada-cama.jpg"
+                                class="card-img-top card-img-css border-bottom border-dark"
+                                alt="Cama"
+                            />
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">Camas y sommiers</h5>
+                                <h5 class="card-title d-flex justify-content-center">
+                                    Camas y sommiers
+                                </h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 justify-content-center d-flex">
-                        <div class="card shadow" style="width: 18rem;">
-                            <img src="recursos/Categorías destacadas/destacada-celular.jpg" class="card-img-top card-img-css border-bottom border-dark" alt="Celular">
+                        <div class="card shadow" style="width: 18rem">
+                            <img
+                                src="recursos/Categorías destacadas/destacada-celular.jpg"
+                                class="card-img-top card-img-css border-bottom border-dark"
+                                alt="Celular"
+                            />
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-center">Celulares</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 justify-content-center d-flex">
-                        <div class="card shadow width-18" style="width: 18rem;">
-                            <img src="recursos/Categorías destacadas/destacada-electrodomestico.jpg" class="card-img-top card-img-css border-bottom border-dark" alt="Electrodoméstico">
+                        <div class="card shadow width-18" style="width: 18rem">
+                            <img
+                                src="recursos/Categorías destacadas/destacada-electrodomestico.jpg"
+                                class="card-img-top card-img-css border-bottom border-dark"
+                                alt="Electrodoméstico"
+                            />
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">Electrodomésticos</h5>
+                                <h5 class="card-title d-flex justify-content-center">
+                                    Electrodomésticos
+                                </h5>
                             </div>
                         </div>
                     </div>
@@ -177,52 +275,86 @@
                         <h2>Los más visitados</h2>
                     </div>
                 </div>
-                <div class="row mb-5 gy-3">
+                <div class="row m-4 gy-3">
                     <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-                        <div class="card shadow" style="width: 18rem;">
-                            <img src="recursos/mas-visitados/colchon1.jpeg" class="card-img-top border-bottom border-dark" alt="Conjunto sommier">
+                        <div class="card shadow" style="width: 18rem">
+                            <img
+                                src="recursos/mas-visitados/colchon1.jpeg"
+                                class="card-img-top border-bottom border-dark"
+                                alt="Conjunto sommier"
+                            />
                             <div class="card-body">
                                 <h5 class="card-title text-center">Conjunto sommier</h5>
-                                <a href="paginas/productos.html" class="btn btn-primary d-flex justify-content-center">Mirar producto</a>
+                                <a
+                                    href="paginas/productos.html"
+                                    class="btn btn-primary d-flex justify-content-center"
+                                    >Mirar producto</a
+                                >
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-                        <div class="card shadow" style="width: 18rem;">
-                            <img src="recursos/mas-visitados/celular1.jpg" class="card-img-top border-bottom border-dark" alt="Celular A20">
+                        <div class="card shadow" style="width: 18rem">
+                            <img
+                                src="recursos/mas-visitados/celular1.jpg"
+                                class="card-img-top border-bottom border-dark"
+                                alt="Celular A20"
+                            />
                             <div class="card-body">
                                 <h5 class="card-title text-center">Samsung Galaxy A20s</h5>
-                                <a href="paginas/productos.html" class="btn btn-primary d-flex justify-content-center">Mirar producto</a>
+                                <a
+                                    href="paginas/productos.html"
+                                    class="btn btn-primary d-flex justify-content-center"
+                                    >Mirar producto</a
+                                >
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-                        <div class="card shadow" style="width: 18rem;">
-                            <img src="recursos/mas-visitados/esquinero1.jpg" class="card-img-top border-bottom border-dark" alt="Sillón esquinero">
+                        <div class="card shadow" style="width: 18rem">
+                            <img
+                                src="recursos/mas-visitados/esquinero1.jpg"
+                                class="card-img-top border-bottom border-dark"
+                                alt="Sillón esquinero"
+                            />
                             <div class="card-body">
                                 <h5 class="card-title text-center">Sillón esquinero 3 cuerpos</h5>
-                                <a href="paginas/productos.html" class="btn btn-primary d-flex justify-content-center">Mirar producto</a>
+                                <a
+                                    href="paginas/productos.html"
+                                    class="btn btn-primary d-flex justify-content-center"
+                                    >Mirar producto</a
+                                >
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-                        <div class="card shadow" style="width: 18rem;">
-                            <img src="recursos/mas-visitados/pava1.jpg" class="card-img-top border-bottom border-dark" alt="Pava eléctrica">
+                        <div class="card shadow" style="width: 18rem">
+                            <img
+                                src="recursos/mas-visitados/pava1.jpg"
+                                class="card-img-top border-bottom border-dark"
+                                alt="Pava eléctrica"
+                            />
                             <div class="card-body">
                                 <h5 class="card-title text-center">Pava eléctrica calentona</h5>
-                                <a href="paginas/productos.html" class="btn btn-primary d-flex justify-content-center">Mirar producto</a>
+                                <a
+                                    href="paginas/productos.html"
+                                    class="btn btn-primary d-flex justify-content-center"
+                                    >Mirar producto</a
+                                >
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row bg-dark bg-gradient">
                     <div class="col-12 p-3 d-flex justify-content-center">
-                        <button type="button" class="btn btn-outline-primary">Botón de arrepentimiento</button>
+                        <button type="button" class="btn btn-outline-primary">
+                            Botón de arrepentimiento
+                        </button>
                     </div>
                 </div>
             </section>
         </main>
-        <footer>
+        <footer class="flex-grow-0">
             <section class="container">
                 <div class="row">
                     <div class="col-12 justify-content-center d-flex p-4">
@@ -237,16 +369,24 @@
                         </div>
                         <div class="d-flex align-items-center gap-2 mb-3">
                             <i class="fa-solid fa-phone fa-2x"></i>
-                            <p class="text-white align-self-center m-0">Numero de telefono de consulta.</p>
+                            <p class="text-white align-self-center m-0">
+                                Numero de telefono de consulta.
+                            </p>
                         </div>
                         <div class="d-flex align-items-center gap-2 mb-3">
                             <i class="fa-solid fa-envelope fa-2x"></i>
-                            <p class="text-white align-self-center m-0">Dirección de correo eléctronico.</p>
+                            <p class="text-white align-self-center m-0">
+                                Dirección de correo eléctronico.
+                            </p>
                         </div>
                     </div>
                     <div class="col-6 d-flex justify-content-end flex-column-sm">
                         <div class="align-items-center p-2">
-                            <a class="" target="blank" href="https://www.instagram.com/feriadelhogar.ok/?hl=es">
+                            <a
+                                class=""
+                                target="blank"
+                                href="https://www.instagram.com/feriadelhogar.ok/?hl=es"
+                            >
                                 <i class="fa-brands fa-instagram fa-3x"></i>
                             </a>
                         </div>

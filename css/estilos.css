@@ -10,6 +10,11 @@ footer {
     -webkit-box-shadow: 9px 10px 31px 11px rgba(0, 0, 0, 0.5) !important;
     box-shadow: 9px 10px 31px 11px rgba(0, 0, 0, 0.5) !important; }
 
+.card-img-css {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover; }
+
 @media screen and (max-width: 576px) {
   .flex-column-sm {
     flex-direction: column;
@@ -20,9 +25,24 @@ footer {
   .btn:hover {
     transform: scale(1.05); }
 
+.carousel-icon {
+  transition: 0.4s; }
+  .carousel-icon:hover {
+    transform: scale(1.5); }
+
+.carousel__img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  height: 75vh;
+  width: 100%; }
+
 * {
   margin: 0;
   padding: 0; }
+
+html, body {
+  height: 100%; }
 
 body {
   background-color: #dcdcdc; }
@@ -42,22 +62,5 @@ i {
 .text-red {
   color: #ed1c24; }
 
-.carousel__img {
-  object-fit: cover;
-  object-position: center;
-  overflow: hidden;
-  height: 75vh;
-  width: 100%; }
-
 .border-red {
   border-color: #ed1c24; }
-
-.card-img-css {
-  width: 100%;
-  height: 15vw;
-  object-fit: cover; }
-
-.carousel-control-animation {
-  transition: 0.4s; }
-  .carousel-control-animation:hover {
-    transform: scale(1.5); }

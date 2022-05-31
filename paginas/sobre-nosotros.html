@@ -17,132 +17,158 @@
         <link rel="stylesheet" href="../css/estilos.css" />
     </head>
 
-    <body class="grids">
-        <header class="header d-grid">
-            <div class="headerLogo flex-center d-flex">
-                <a href="../index.html"
-                    ><img class="logo-img" src="../recursos/FH INICIO.png" alt="Feria del Hogar"
-                /></a>
-            </div>
-            <div class="headerTitulo d-flex">
-                <h1 class="titulo__h1">FERIA DEL HOGAR</h1>
-            </div>
-            <div class="headerButton d-none">
-                <img src="../recursos/Header icons/bars-solid.svg" alt="Menu" />
-            </div>
-            <nav class="headerNav flex-center d-flex">
-                <ul class="d-flex">
-                    <li>
-                        <a class="nav__item" href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a class="nav__item" href="contactanos.html">Contáctanos</a>
-                    </li>
-                    <li>
-                        <a class="nav__item" href="sucursales.html">Sucursales</a>
-                    </li>
-                    <li>
-                        <a class="nav__item" href="productos.html">Productos</a>
-                    </li>
-                    <li>
-                        <a class="nav__item--destacado" href="sobre-nosotros.html"
-                            >Sobre Nosotros</a
-                        >
-                    </li>
-                </ul>
+    <body class="d-flex flex-column">
+        <header class="bg-red p-2">
+            <nav class="navbar navbar-expand-lg bg-red">
+                <div class="container-fluid gap-5">
+                    <div>
+                        <a href="../index.html"
+                            ><img
+                                class="border border-dark border-5"
+                                src="../recursos/FH INICIO.png"
+                                alt="Feria del Hogar"
+                        /></a>
+                    </div>
+                    <div class="d-flex align-items-center d-none d-sm-block">
+                        <h1 class="text-white pl-5">FERIA DEL HOGAR</h1>
+                    </div>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <i class="fa-solid fa-bars text-white fa-2x"></i>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active text-white"
+                                    aria-current="page"
+                                    href="../index.html"
+                                    >Inicio</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="contactanos.html"
+                                    >Contáctanos</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="sobre-nosotros.html"
+                                    >Nosotros</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="sucursales.html">Sucursales</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
-
-        <main class="sobreNosotros-main d-grid">
-            <div class="sobrenos-h2">
-                <h2 class="">Sobre nosotros</h2>
-            </div>
-            <div>
-                <p class="sobreNos-p">
-                    Feria del Hogar, es una empresa que se especializa desde el año 2013 en la
-                    comercialización de muebles, artículos para el hogar, electrodomésticos,
-                    colchones, artículos de calefacción y ventilación y otros. Buscamos satisfacer
-                    las necesidades de las familias que desean amoblar y equipar sus hogares con
-                    productos de alta calidad, estilo y una gama amplia de diseños con la
-                    posibilidad de una financiación flexible y acorde a cada necesidad.
-                </p>
-            </div>
-            <div class="comoComprar-h3">
-                <h3>¿Cómo comprar?</h3>
-            </div>
-            <div>
-                <p class="sobreNos-p">
-                    Te invitamos a recorrer nuestra web para que conozcas nuestros productos y
-                    nuestras formas de pago ofrecidas por los medios financieros disponibles. ¡No te
-                    pierdas los beneficios y ofertas actualizados semanalmente! Una vez seleccionado
-                    tu producto, te invitamos a comunicarte utilizando alguno de nuestros medios de
-                    contacto o bien, acercándote a alguna de nuestras sucursales para recibir una
-                    atención más personalizada y, de ser el caso, poder concretar una compra de
-                    algún producto.
-                </p>
-            </div>
+        <main class="flex-grow-1">
+            <section class="container mt-5 mb-5">
+                <div class="row m-3 border-bottom border-danger border-2">
+                    <div class="col-12 col-sm-6 mt-3">
+                        <h2 class="">Sobre nosotros</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="lh-lg">
+                            Feria del Hogar, es una empresa que se especializa desde el año 2013 en
+                            la comercialización de muebles, artículos para el hogar,
+                            electrodomésticos, colchones, artículos de calefacción y ventilación y
+                            otros. Buscamos satisfacer las necesidades de las familias que desean
+                            amoblar y equipar sus hogares con productos de alta calidad, estilo y
+                            una gama amplia de diseños con la posibilidad de una financiación
+                            flexible y acorde a cada necesidad.
+                        </p>
+                    </div>
+                </div>
+                <div class="row m-3 border-bottom border-danger border-2">
+                    <div class="col-12 col-sm-6 mt-3">
+                        <h3 class="">¿Cómo comprar?</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="lh-lg">
+                            Te invitamos a recorrer nuestra web para que conozcas nuestros productos
+                            y nuestras formas de pago ofrecidas por los medios financieros
+                            disponibles. ¡No te pierdas los beneficios y ofertas actualizados
+                            semanalmente! Una vez seleccionado tu producto, te invitamos a
+                            comunicarte utilizando alguno de nuestros medios de contacto o bien,
+                            acercándote a alguna de nuestras sucursales para recibir una atención
+                            más personalizada y, de ser el caso, poder concretar una compra de algún
+                            producto.
+                        </p>
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer class="footer d-grid">
-            <div class="encontranosTitulo">
-                <h2 class="d-flex flex-center encontranos__h2">¡Encontranos!</h2>
-            </div>
-            <section class="footerInfo">
-                <div class="d-flex info__div">
-                    <img class="info__img" src="../recursos/Footer icons/location.png" />
-                    <p class="info__p">Ubicación de oficinas.</p>
+        <footer class="flex-grow-0">
+            <section class="container">
+                <div class="row">
+                    <div class="col-12 justify-content-center d-flex p-4">
+                        <h2 class="text-center text-white">¡Encontranos!</h2>
+                    </div>
                 </div>
-                <div class="d-flex info__div">
-                    <img class="info__img" src="../recursos/Footer icons/phone-call.png" />
-                    <p class="info__p">Numero de telefono de consulta.</p>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="d-flex align-items-center gap-2 mb-3">
+                            <i class="fa-solid fa-location-dot fa-2x"></i>
+                            <p class="text-white align-self-center m-0">Ubicación de oficinas.</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 mb-3">
+                            <i class="fa-solid fa-phone fa-2x"></i>
+                            <p class="text-white align-self-center m-0">
+                                Numero de telefono de consulta.
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 mb-3">
+                            <i class="fa-solid fa-envelope fa-2x"></i>
+                            <p class="text-white align-self-center m-0">
+                                Dirección de correo eléctronico.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end flex-column-sm">
+                        <div class="align-items-center p-2">
+                            <a
+                                class=""
+                                target="blank"
+                                href="https://www.instagram.com/feriadelhogar.ok/?hl=es"
+                            >
+                                <i class="fa-brands fa-instagram fa-3x"></i>
+                            </a>
+                        </div>
+                        <div class="align-items-center p-2">
+                            <a target="blank" href="https://www.facebook.com/FeriadelHogar.ok/">
+                                <i class="fa-brands fa-facebook-square fa-3x"></i>
+                            </a>
+                        </div>
+                        <div class="align-items-center p-2">
+                            <a target="blank" href="https://www.youtube.com/watch?v=nohQReM7BpI">
+                                <i class="fa-brands fa-empire fa-3x"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="d-flex info__div">
-                    <img class="info__img" src="../recursos/Footer icons/envelope.png" />
-                    <p class="info__p">Dirección de correo eléctronico.</p>
+                <div class="row">
+                    <div class="col-12 justify-content-center d-flex p-3">
+                        <p class="text-center text-white">&copy; Todos los derechos reservados.</p>
+                    </div>
                 </div>
             </section>
-            <section>
-                <ul class="linksRedes d-flex">
-                    <li class="redes__li d-flex flex-center">
-                        <a target="blank" href="https://www.instagram.com/feriadelhogar.ok/?hl=es">
-                            <img class="redes__img" src="../recursos/Footer icons/instagram.png" />
-                        </a>
-                    </li>
-                    <li class="d-flex flex-center">
-                        <a target="blank" href="https://www.facebook.com/FeriadelHogar.ok/">
-                            <img class="redes__img" src="../recursos/Footer icons/facebook.png" />
-                        </a>
-                    </li>
-                    <li class="d-flex flex-center">
-                        <a target="blank" href="https://www.youtube.com/watch?v=nohQReM7BpI">
-                            <img
-                                class="redes__img"
-                                src="../recursos/Footer icons/space-station.png"
-                            />
-                        </a>
-                    </li>
-                    <li class="d-flex flex-center">
-                        <a target="blank" href="#">
-                            <img
-                                class="redes__img"
-                                src="../recursos/Footer icons/twitter-sign.png"
-                            />
-                        </a>
-                    </li>
-                    <li class="d-flex flex-center">
-                        <a target="blank" href="#">
-                            <img class="redes__img" src="../recursos/Footer icons/pinterest.png" />
-                        </a>
-                    </li>
-                    <li class="d-flex flex-center">
-                        <a target="blank" href="#">
-                            <img class="redes__img" src="../recursos/Footer icons/youtube.png" />
-                        </a>
-                    </li>
-                </ul>
-            </section>
-            <div class="derechosReservados d-grid">
-                <p class="d-flex flex-center">&copy; Todos los derechos reservados.</p>
-            </div>
         </footer>
         <!--SCRIPT BOOTSTRAP-->
         <script
