@@ -1,0 +1,29 @@
+$mapa:(
+    red: $color-principal,
+    gray: $color-secundario,
+    light-gray: $color-fondo,
+    white: $color-icono
+);
+
+@each $clave, $valor in $mapa {
+    .bg-#{$clave} {
+        background-color: #{$valor};
+    }
+    
+    .text-#{$clave} {
+        color: #{$valor};
+    }
+
+    .border-#{$clave} {
+        border-color: #{$valor};
+    }
+}
+
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+%img-cover{
+    object-fit: cover;
+}
