@@ -1,45 +1,15 @@
+@import 'reset';
 @import 'variables';
 @import 'sasscript';
-@import 'header';
-@import 'footer';
 @import 'cards';
 @import 'mediaqueries';
 @import 'btn';
 @import 'carousel';
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 html, body {
-    height: 100%;
-}
-
-body {
-    background-color: $color-fondo;
+    @include size(auto, 100%);
 }
 
 ul {
     list-style-type: none;
-}
-
-.bg-gray {
-    background-color: $color-secundario;
-}
-
-.bg-red {
-    background-color: $color-principal;
-}
-
-i {
-    color: $color-icono;
-}
-
-.text-red {
-    color: $color-principal;
-}
-
-.border-red {
-    border-color: $color-principal;
 }

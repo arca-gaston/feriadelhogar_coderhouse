@@ -6,9 +6,8 @@
 }
 
 .carousel__img {
-    object-fit: cover;
+    @extend %img-cover;
     object-position: center;
     overflow: hidden;
-    height: 75vh;
-    width: 100%;
+    @include size(100%, 75vh)
 }
