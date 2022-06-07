@@ -1,200 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!--DESCRIPCIÓN-->
-        <meta
-            name="description"
-            content="Convierte tu casa tu hogar ideal con nuestra amplia selección 
-            de muebles, electrodomésticos, celulares, camas, etc."
-        />
-        <!--KEYWORDS-->
-        <meta name="keywords" content="Feria del Hogar, electrodomésticos, muebles, camas, sommiers, celulares, sillón" />
-        <title>Productos - Feria del Hogar</title>
-        <link rel="shortcut icon" href="../recursos/favicon-16x16.png" type="image/x-icon" />
-        <!--BOOTSTRAP-->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-            crossorigin="anonymous"
-        />
-        <!--CSS-->
-        <link rel="stylesheet" href="../css/estilos.css" />
-    </head>
 
-    <body class="d-flex flex-column bg-light-gray">
-        <header class="bg-red p-2">
-            <nav class="navbar navbar-expand-lg bg-red">
-                <div class="container-fluid gap-5">
-                    <div>
-                        <a href="../index.html"
-                            ><img
-                                class="border border-dark border-5"
-                                src="../recursos/FH INICIO.png"
-                                alt="Feria del Hogar"
-                        /></a>
-                    </div>
-                    <div class="d-flex align-items-center d-none d-sm-block">
-                        <h1 class="text-white pl-5">FERIA DEL HOGAR</h1>
-                    </div>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <i class="text-white fa-solid fa-bars text-white fa-2x"></i>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link active text-white"
-                                    aria-current="page"
-                                    href="../index.html"
-                                    >Inicio</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="contactanos.html"
-                                    >Contáctanos</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="productos.html">Productos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="sobre-nosotros.html"
-                                    >Nosotros</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="sucursales.html">Sucursales</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--DESCRIPCIÓN-->
+    <meta name="description" content="Convierte tu casa tu hogar ideal con nuestra amplia selección 
+            de muebles, electrodomésticos, celulares, camas, etc." />
+    <!--KEYWORDS-->
+    <meta name="keywords" content="Feria del Hogar, electrodomésticos, muebles, camas, sommiers, celulares, sillón" />
+    <title>Productos - Feria del Hogar</title>
+    <link rel="shortcut icon" href="../recursos/favicon-16x16.png" type="image/x-icon" />
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/estilos.css" />
+</head>
 
-        <main class="flex-grow-1">
-            <h2 class="productos-h2">Productos</h2>
-            <section class="tienda">
-                <h2 class="tienda__section">Colchones</h2>
-                <article class="tienda__articulo">
-                    <img class="tienda__articulo-imagen" src="../recursos/colchon.jpeg" />
-                    <div class="tienda__articulo-detalles">
-                        <p class="tienda__articulo-titulo">Nombre Articulo</p>
-                        <p class="tienda__articulo-descripcion">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
+<body class="d-flex flex-column bg-light-gray">
+    <header class="bg-red p-2">
+        <nav class="navbar navbar-expand-lg bg-red">
+            <div class="container-fluid gap-5">
+                <div>
+                    <a href="../index.html"><img class="border border-dark border-5" src="../recursos/FH INICIO.png"
+                            alt="Feria del Hogar" /></a>
+                </div>
+                <div class="d-flex align-items-center d-none d-sm-block">
+                    <h1 class="text-white pl-5">FERIA DEL HOGAR</h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="text-white fa-solid fa-bars text-white fa-2x"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contactanos.html">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="sobre-nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="sucursales.html">Sucursales</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-                        <button class="tienda__articulo-button">Ver detalles</button>
-                    </div>
-                </article>
-                <article class="tienda__articulo">
-                    <img class="tienda__articulo-imagen" src="../recursos/colchon.jpeg" />
-                    <div class="tienda__articulo-detalles">
-                        <p class="tienda__articulo-titulo">Nombre Articulo</p>
-                        <p class="tienda__articulo-descripcion">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <button class="tienda__articulo-button">Ver detalles</button>
-                    </div>
-                </article>
-                <article class="tienda__articulo">
-                    <img class="tienda__articulo-imagen" src="../recursos/colchon.jpeg" />
-                    <div class="tienda__articulo-detalles">
-                        <p class="tienda__articulo-titulo">Nombre Articulo</p>
-                        <p class="tienda__articulo-descripcion">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <button class="tienda__articulo-button">Ver detalles</button>
-                    </div>
-                </article>
-                <article class="tienda__articulo">
-                    <img class="tienda__articulo-imagen" src="../recursos/colchon.jpeg" />
-                    <div class="tienda__articulo-detalles">
-                        <p class="tienda__articulo-titulo">Nombre Articulo</p>
-                        <p class="tienda__articulo-descripcion">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <button class="tienda__articulo-button">Ver detalles</button>
-                    </div>
-                </article>
-            </section>
-        </main>
-        <footer class="flex-grow-0 bg-red">
-            <section class="container">
-                <div class="row">
-                    <div class="col-12 justify-content-center d-flex p-4">
-                        <h2 class="text-center text-white">¡Encontranos!</h2>
-                    </div>
+    <main class="flex-grow-1">
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col justify-content-center d-flex pt-5">
+                    <h2>Productos</h2>
                 </div>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="d-flex align-items-center gap-2 mb-3">
-                            <i class="text-white fa-solid fa-location-dot fa-2x"></i>
-                            <p class="text-white align-self-center m-0">Ubicación de oficinas.</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2 mb-3">
-                            <i class="text-white fa-solid fa-phone fa-2x"></i>
-                            <p class="text-white align-self-center m-0">
-                                Numero de telefono de consulta.
-                            </p>
-                        </div>
-                        <div class="d-flex align-items-center gap-2 mb-3">
-                            <i class="text-white fa-solid fa-envelope fa-2x"></i>
-                            <p class="text-white align-self-center m-0">
-                                Dirección de correo eléctronico.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-6 d-flex justify-content-end flex-column-sm">
-                        <div class="align-items-center p-2">
-                            <a
-                                class=""
-                                target="blank"
-                                href="https://www.instagram.com/feriadelhogar.ok/?hl=es"
-                            >
-                                <i class="text-white fa-brands fa-instagram fa-3x"></i>
-                            </a>
-                        </div>
-                        <div class="align-items-center p-2">
-                            <a target="blank" href="https://www.facebook.com/FeriadelHogar.ok/">
-                                <i class="text-white fa-brands fa-facebook-square fa-3x"></i>
-                            </a>
-                        </div>
-                        <div class="align-items-center p-2">
-                            <a target="blank" href="https://www.youtube.com/watch?v=nohQReM7BpI">
-                                <i class="text-white fa-brands fa-empire fa-3x"></i>
-                            </a>
+            </div>
+            <div class="row m-3 border-bottom border-danger border-2">
+                <div class="col-6 mt-3">
+                    <h3>Muebles de interior</h3>
+                </div>
+            </div>
+            <div class="row m-4 gy-3">
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="../recursos/p-muebles-interior/350376-2.jpg"
+                            class="card-img-top border-bottom border-dark" alt="Rack TV con escritorio" />
+                        <div class="card-body">
+                            <p class="card-title text-center fs-5">Rack TV con escritorio</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                producto</a>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 justify-content-center d-flex p-3">
-                        <p class="text-center text-white">&copy; Todos los derechos reservados.</p>
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="../recursos/p-muebles-interior/Haya-frente-Blanco-comprimido.jpg"
+                            class="card-img-top border-bottom border-dark" alt="Buffet blanco" />
+                        <div class="card-body">
+                            <p class="card-title text-center fs-5">Buffet blanco</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                producto</a>
+                        </div>
                     </div>
                 </div>
-            </section>
-        </footer>
-        <!--SCRIPT BOOTSTRAP-->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"
-        ></script>
-        <script src="https://kit.fontawesome.com/0e31c3f5ed.js" crossorigin="anonymous"></script>
-    </body>
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="../recursos/p-muebles-interior/mueble-oficina-con-alzada-1.jpg"
+                            class="card-img-top border-bottom border-dark" alt="Buffet negro con alacena" />
+                        <div class="card-body">
+                            <p class="card-title text-center fs-5">Buffet negro con alacena</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="../recursos/p-muebles-interior/Repisa-esquinera-3.jpg"
+                            class="card-img-top border-bottom border-dark" alt="Repisa esquinera" />
+                        <div class="card-body">
+                            <p class="card-title text-center fs-5">Repisa esquinera</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                producto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-3 border-bottom border-danger border-2">
+                <div class="col-6 mt-3">
+                    <h3>Celulares</h3>
+                </div>
+            </div>
+            <div class="row m-4 gy-3">
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="../recursos/p-celulares/3032292_1.jpg" class="card-img-top border-bottom border-dark"
+                            alt="Samsung Galaxy A20" />
+                        <div class="card-body">
+                            <p class="card-title text-center fs-5">Samsung Galaxy A20</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="../recursos/p-celulares/3137901_1.jpg" class="card-img-top border-bottom border-dark"
+                            alt="Celular A20" />
+                        <div class="card-body">
+                            <p class="card-title text-center fs-5">Samsung Galaxy A30s</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="../recursos/p-celulares/celular1.jpg" class="card-img-top border-bottom border-dark"
+                            alt="Samsung Galaxy A20s" />
+                        <div class="card-body">
+                            <p class="card-title text-center fs-5">Samsung Galaxy A20s</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="../recursos/p-celulares/d6850968f4b2758b484bf8ae8a71.jpg"
+                            class="card-img-top border-bottom border-dark" alt="Moto G51 5G" />
+                        <div class="card-body">
+                            <p class="card-title text-center fs-5">Moto G51 5G</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                producto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-3 border-bottom border-danger border-2">
+                <div class="col-6 mt-3">
+                    <h3>Camas y sommiers</h3>
+                </div>
+            </div>
+            <div class="row m-4 gy-3">
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="../recursos/p-camas-sommiers/3616627_1.jpg"
+                            class="card-img-top border-bottom border-dark" alt="Cama juvenil" />
+                        <div class="card-body">
+                            <p class="card-title text-center fs-5">Cama juvenil</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="../recursos/p-camas-sommiers/7693a794a286ae6c84e216f47301.jpg"
+                            class="card-img-top border-bottom border-dark" alt="Conjunto sommier cómodo" />
+                        <div class="card-body">
+                            <p class="card-title text-center fs-5">Conjunto sommier cómodo</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="../recursos/p-camas-sommiers/colchon1.jpeg"
+                            class="card-img-top border-bottom border-dark" alt="Conjunto sommier más cómodo" />
+                        <div class="card-body">
+                            <p class="card-title text-center fs-5">Conjunto sommier suave</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                    <div class="card shadow" style="width: 18rem">
+                        <img src="../recursos/p-camas-sommiers/D_889149-MLA45154464304_032021-O.jpg"
+                            class="card-img-top border-bottom border-dark" alt="Cama box" />
+                        <div class="card-body">
+                            <p class="card-title text-center fs-5">Cama box</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-3 border-bottom border-danger border-2">
+                    <div class="col-6 mt-3">
+                        <h3>Electrodomésticos</h3>
+                    </div>
+                </div>
+                <div class="row m-4 gy-3">
+                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                        <div class="card shadow" style="width: 18rem">
+                            <img src="../recursos/p-electrodomesticos/1948076_1.jpg"
+                                class="card-img-top border-bottom border-dark" alt="Procesadora Atma" />
+                            <div class="card-body">
+                                <p class="card-title text-center fs-5">Procesadora Atma</p>
+                                <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                    producto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                        <div class="card shadow" style="width: 18rem">
+                            <img src="../recursos/p-electrodomesticos/880294644_1.jpg"
+                                class="card-img-top border-bottom border-dark" alt="Cafetera Wurden" />
+                            <div class="card-body">
+                                <p class="card-title text-center fs-5">Cafetera Wurden</p>
+                                <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                    producto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                        <div class="card shadow" style="width: 18rem">
+                            <img src="../recursos/p-electrodomesticos/micro-sam-28s-21-e0267e94e85841902c15568399067163-1024-1024.jpg"
+                                class="card-img-top border-bottom border-dark" alt="Microondas Samsung" />
+                            <div class="card-body">
+                                <p class="card-title text-center fs-5">Microondas Samsung</p>
+                                <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                    producto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                        <div class="card shadow" style="width: 18rem">
+                            <img src="../recursos/p-electrodomesticos/pava1.jpg" class="card-img-top border-bottom border-dark"
+                                alt="Pava eléctrica" />
+                            <div class="card-body">
+                                <p class="card-title text-center fs-5">Pava eléctrica calentona</p>
+                                <a href="#" class="btn btn-primary d-flex justify-content-center">Mirar
+                                    producto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer class="flex-grow-0 bg-red">
+        <section class="container">
+            <div class="row">
+                <div class="col-12 justify-content-center d-flex p-4">
+                    <h3 class="text-center text-white">¡Encontranos!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <i class="text-white fa-solid fa-location-dot fa-2x"></i>
+                        <p class="text-white align-self-center m-0">Ubicación de oficinas.</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <i class="text-white fa-solid fa-phone fa-2x"></i>
+                        <p class="text-white align-self-center m-0">
+                            Numero de telefono de consulta.
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <i class="text-white fa-solid fa-envelope fa-2x"></i>
+                        <p class="text-white align-self-center m-0">
+                            Dirección de correo eléctronico.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-end flex-column-sm">
+                    <div class="align-items-center p-2">
+                        <a class="" target="blank" href="https://www.instagram.com/feriadelhogar.ok/?hl=es">
+                            <i class="text-white fa-brands fa-instagram fa-3x"></i>
+                        </a>
+                    </div>
+                    <div class="align-items-center p-2">
+                        <a target="blank" href="https://www.facebook.com/FeriadelHogar.ok/">
+                            <i class="text-white fa-brands fa-facebook-square fa-3x"></i>
+                        </a>
+                    </div>
+                    <div class="align-items-center p-2">
+                        <a target="blank" href="https://www.youtube.com/watch?v=nohQReM7BpI">
+                            <i class="text-white fa-brands fa-empire fa-3x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 justify-content-center d-flex p-3">
+                    <p class="text-center text-white">&copy; Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--SCRIPT BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0e31c3f5ed.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
