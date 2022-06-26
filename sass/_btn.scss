@@ -1,6 +1,8 @@
 .btn {
     transition: all 0.3s;
+    color: white;
     &:hover {
         transform: scale(1.05);
+        color: white;
     }
 }
