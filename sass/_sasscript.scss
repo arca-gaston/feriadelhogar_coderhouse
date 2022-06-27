@@ -2,7 +2,8 @@ $mapa:(
     red: $color-principal,
     gray: $color-secundario,
     light-gray: $color-fondo,
-    white: $color-icono
+    white: $color-icono,
+    red-btn: $color-boton,
 );
 
 @each $clave, $valor in $mapa {

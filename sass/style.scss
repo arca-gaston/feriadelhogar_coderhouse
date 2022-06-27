@@ -1,6 +1,13 @@
-@import 'reset';
+* {
+    margin: 0;
+    padding: 0;
+}
+
 @import 'variables';
+@import 'node_modules/bootstrap/scss/bootstrap';
 @import 'sasscript';
+@import 'headerNav';
+@import 'googlemaps';
 @import 'cards';
 @import 'mediaqueries';
 @import 'btn';
